@@ -3,7 +3,7 @@ require("dotenv").config()
 module.exports = {
   siteMetadata: {
     siteUrl: "https://www.yourdomain.tld",
-    title: "shockmouse-media",
+    title: "H",
   },
   plugins: [
     "gatsby-plugin-image",

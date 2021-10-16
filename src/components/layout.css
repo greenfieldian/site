@@ -105,7 +105,7 @@ input[type=button], input[type=submit], input[type=reset], button.btn, a.btn, .b
     vertical-align: bottom;
     padding-left: 25px;
     right: 10px;
-    content: "\e608";
+    content: "\2794";
     color: #2251ff;
     -webkit-transition: right 0.4s, color 120ms;
     transition: right 0.4s, color 120ms;
@@ -173,7 +173,11 @@ input[type=button], input[type=submit], input[type=reset], button.btn, a.btn, .b
 
 /* CTA Section */
 .cta-section-container {
+    margin-top: 60px;
     padding-top: 40px;
     padding-bottom: 40px;
+}
+.cta-section-container .cta {
+    border-bottom: 2px solid var(--light-accent-blue);
 }
 /* CTA Section */

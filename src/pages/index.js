@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
+import { Helmet } from "react-helmet"
 
 import DonateImg from "../assets/philanthropy.png"
 
@@ -9,6 +10,13 @@ import CTA from '../components/ctaComponent'
 
 export default function Index() {
   return (
+    <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Home | Shockmouse Media</title>
+        <link rel="canonical" href="http://mysite.com/example" />
+      </Helmet>
+
     <Layout>
       <div className={homepageStyles.hero}>
         <div className={homepageStyles.bg}></div>
@@ -153,6 +161,7 @@ export default function Index() {
       </section>
       <CTA/>
     </Layout>
+    </>
   )
 }
 
