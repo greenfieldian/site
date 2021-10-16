@@ -7,7 +7,7 @@ import * as footerStyles from "./footer.module.css"
 export default class Footer extends Component {
     render() {
         return (
-            <div className="container">
+            <footer className="container">
                 <section>
                     <div className={footerStyles.logo_icon}>
                     </div>
@@ -56,7 +56,7 @@ export default class Footer extends Component {
                 <section className={footerStyles.footer_bottom}>
                     <div className={footerStyles.copyright}>© 2021 Shockmouse Media LLC</div>
                 </section>
-            </div>
+            </footer>
         )
     }
 }

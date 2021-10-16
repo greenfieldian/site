@@ -27,6 +27,35 @@
 .section_content {
     padding-top: 48px;
 }
+.blog_feature {
+    margin-top: 60px;
+    clear: both;
+    display: inline-block;
+}
+.header_wrapper {
+    padding: 0 5%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.feature_content {
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    padding: 24px 36px;
+    position: relative;
+    width: 100%;
+    height: auto;
+    z-index: 2;
+}
 .read_more_container {
     background: var(--accent-blue);
     width: 100%;
