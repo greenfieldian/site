@@ -1,3 +1,5 @@
+require("dotenv").config()
+
 module.exports = {
   siteMetadata: {
     siteUrl: "https://www.yourdomain.tld",
@@ -16,6 +18,14 @@ module.exports = {
         path: "./src/images/",
       },
       __key: "images",
+    },
+    {
+      resolve: "gatsby-plugin-web-font-loader",
+      options: {
+        typekit: {
+          id: process.env.TYPEKIT_ID,
+        },
+      },
     },
   ],
 };
