@@ -102,7 +102,7 @@ export default function Contact() {
                                 </article>
                             </div>
                             <div className={contactStyles.rail}>
-                                <section>
+                                <section className="up">
                                     <h2 className="section-header">Media Inquiries</h2>
                                     <div>
                                         <div className="item">
