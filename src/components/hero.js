@@ -11,7 +11,7 @@ export default function Hero(props) {
                         <img src={props.image} />
                     </picture>
                     <div className={heroStyles.hero_overlay}>
-                        <div className="text-wrapper container">
+                        <div className={heroStyles.text_wrapper + " " + "container"}>
                             <h2 className="headline">{props.headline}</h2>
                             <p className="description">{props.description}</p>
                         </div>

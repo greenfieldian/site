@@ -13,6 +13,9 @@
         135deg, rgba(5,28,44,.9) 60%, rgba(3,51,156,.8) 100%);
     color: #fff;
 }
+.hero_overlay .text_wrapper {
+    padding-top: 40px;
+}
 .hero_container img {
     height: 100%;
     width: 100%;
