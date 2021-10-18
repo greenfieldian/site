@@ -30,11 +30,11 @@ export default function Partners() {
                 <div>
                     <section className={partnerStyles.core_partners_container}>
                         <header className="container">
-                            <h2 className="section-header">Core Technology Partners</h2>
+                            <h2 className={"section-header" + " " + partnerStyles.section_header}>Core Technology Partners</h2>
                         </header>
                         <div className="container">
                             <div className="row">
-                                <div className="col-12 col-lg-10 text-center">
+                                <div className="col-12 col-lg-10 text-center pt-5">
                                     <div className={partnerStyles.core_partners_item}>
                                         <img src={AWSLogo}/>
                                     </div>
