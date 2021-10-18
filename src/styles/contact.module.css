@@ -1,0 +1,40 @@
+.fieldset_column_3 {
+    display: flex;
+}
+.fieldset_option {
+    width: 33.33333%;
+    margin-bottom: 1rem;
+}
+.form_fieldset legend {
+    margin-bottom: 12px;
+    padding-left: 0;
+    text-transform: uppercase;
+    font-size: .75rem;
+    line-height: 1rem;
+    font-weight: 600;
+}
+.form_fieldset label {
+    margin: 0;
+    padding: 1px .5rem 1px 2px;
+}
+.form_fieldset input[type='radio'] {
+    margin-right: 5px;
+    display: inline-block;
+}
+.form_fieldset span {
+    font-size: .875rem;
+    line-height: 1.5rem;
+    position: relative;
+    display: inline-block;
+    width: auto;
+    font-weight: 500;
+    text-transform: none;
+}
+.form_group {
+    margin-bottom: 36px;
+}
+.privacy_disclosure {
+    color: #757575;
+    font-size: .8125rem;
+    margin-bottom: 36px;
+}
