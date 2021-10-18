@@ -198,6 +198,9 @@ input {
 .navbar-light .navbar-brand {
     color: rgba(255,255,255,1);
 }
+.navbar-brand img {
+    height: 40px;
+}
 .navbar-light .navbar-toggler {
     color: rgba(255,255,255,1);
     border: none;
