@@ -214,3 +214,9 @@ input {
     border-bottom: 2px solid var(--light-accent-blue);
 }
 /* CTA Section */
+
+/* SwiperJS */
+.swiper-slide {
+    width: 65% !important;
+}
+/* SwiperJS */

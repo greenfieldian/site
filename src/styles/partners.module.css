@@ -15,3 +15,22 @@
     height: 100%;
     max-width: 200px;
 }
+.additional_partner_container {
+    background: var(--primary-blue);
+    color: #fff;
+}
+.additional_partner_container .subsection_header {
+    color: #fff;
+    font-size: .75rem;
+}
+.additional_main_container h3 {
+    font-size: 1.125rem;
+    line-height: 2rem;
+}
+.additional_text_wrapper {
+    font-size: .85rem;
+    padding-top: 1rem;
+}
+.additional_text_wrapper p:first-child {
+    font-weight: 500;
+}
