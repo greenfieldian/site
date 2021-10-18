@@ -4,6 +4,8 @@ import { Link } from 'gatsby'
 import Hero from '../components/hero'
 import Layout from '../components/layout'
 
+import DonateImg from "../assets/philanthropy.png"
+
 import * as contactStyles from "../styles/contact.module.css"
 
 <script src="https://www.google.com/recaptcha/api.js"></script>
@@ -17,7 +19,11 @@ export default function Contact() {
                 <link rel="canonical" href="http://mysite.com/example" />
             </Helmet>
             <Layout>
-                <Hero />
+                <Hero 
+                    image={DonateImg}
+                    headline="We thrive on helping you figure out what's next."
+                    description="Lorem ipsum dolor sit amet, consectetur adipscing elit, sed do eiusmod tompor incididunt ut labore et dolore magna aliqua."
+                />
                 <div>
                     <div className="wrapper">
                         <div className="container">
