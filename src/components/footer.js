@@ -2,6 +2,8 @@ import { Link } from 'gatsby'
 import React, { Component } from 'react'
 import { FaLinkedin, FaMediumM, FaInstagram, FaYoutube } from "react-icons/fa";
 
+import Logo from "../assets/sample-shockmouse-logo.png"
+
 import * as footerStyles from "./footer.module.css"
 
 export default class Footer extends Component {
@@ -10,6 +12,7 @@ export default class Footer extends Component {
             <footer className="container">
                 <section>
                     <div className={footerStyles.logo_icon}>
+                        <img src={Logo}/>
                     </div>
                     <div className={footerStyles.sub_links_container}>
                         <div className={footerStyles.sub_detail}>
