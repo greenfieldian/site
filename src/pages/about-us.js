@@ -136,8 +136,66 @@ export default function About() {
                             <img src={HomeImage}/>
                         </div>
                     </section>
+                    <section className={"up" + " " + aboutStyles.values_container}>
+                        <div>
+                            <header className="headline">
+                                <h3>Our Values</h3>
+                            </header>
+                            <ul>
+                                <li>
+                                    <div>
+                                        <h4>Lorem Ipsum</h4>
+                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantuium doloremque laudantium</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <h4>Lorem Ipsum</h4>
+                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantuium doloremque laudantium</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <h4>Lorem Ipsum</h4>
+                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantuium doloremque laudantium</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
                     <section>
-
+                        <div className="container">
+                            <div className="row">
+                                <header>
+                                    <h2>How We Give Back</h2>
+                                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi</p>
+                                </header>
+                                <div>
+                                    <div className={aboutStyles.hero_container}>
+                                        <picture>
+                                            <img />
+                                        </picture>
+                                        <div className={aboutStyles.hero_overlay}>
+                                            <div className={aboutStyles.text_wrapper + " " + "container"}>
+                                                <h2 className="headline"></h2>
+                                                <p className="description"></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className={aboutStyles.hero_container}>
+                                        <picture>
+                                            <img  />
+                                        </picture>
+                                        <div className={aboutStyles.hero_overlay}>
+                                            <div className={aboutStyles.text_wrapper + " " + "container"}>
+                                                <h2 className="headline"></h2>
+                                                <p className="description"></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </section>
                 <CTA />
             </Layout>

@@ -9,3 +9,7 @@
     bottom: 0;
     padding: 12%;
 }
+.values_container {
+    background: var(--primary-blue);
+    color: #fff;
+}
