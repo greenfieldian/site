@@ -18,6 +18,8 @@ import ShopifyLogo from "../assets/shopify-darkgray.png"
 import MicrosoftLogo from "../assets/microsoft-lofo.png"
 import TableauLogo from "../assets/tableau-logo.png"
 import SalesforceLogo from "../assets/salesforce.png"
+import NonProfit from "../assets/non-profit-img.png"
+import Pledge1 from "../assets/pledge-1-img.png"
 
 export default function About() {
     return (
@@ -173,7 +175,7 @@ export default function About() {
                                 <div>
                                     <div className={aboutStyles.hero_container}>
                                         <picture>
-                                            <img />
+                                            <img src={Pledge1}/>
                                         </picture>
                                         <div className={aboutStyles.hero_overlay}>
                                             <div className={aboutStyles.text_wrapper + " " + "container"}>
@@ -184,7 +186,7 @@ export default function About() {
                                     </div>
                                     <div className={aboutStyles.hero_container}>
                                         <picture>
-                                            <img  />
+                                            <img  src={NonProfit}/>
                                         </picture>
                                         <div className={aboutStyles.hero_overlay}>
                                             <div className={aboutStyles.text_wrapper + " " + "container"}>

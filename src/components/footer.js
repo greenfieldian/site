@@ -37,14 +37,14 @@ export default class Footer extends Component {
                         <div className={footerStyles.links_detail}>
                             <div className={footerStyles.links_detail}>
                                 <ul className={footerStyles.utility_links}>
-                                    <li><Link>About Us</Link></li>
-                                    <li><Link>Partners</Link></li>
-                                    <li><Link>Insights</Link></li>
-                                    <li><Link>Careers</Link></li>
-                                    <li><Link>Contact Us</Link></li>
-                                    <li><Link>Terms</Link></li>
-                                    <li><Link>Sitemap</Link></li>
-                                    <li><Link>Privacy Policy</Link></li>
+                                    <li><Link to="/about-us">About Us</Link></li>
+                                    <li><Link to="/partners">Partners</Link></li>
+                                    <li><Link to="/blog">Insights</Link></li>
+                                    <li><Link to="/careers">Careers</Link></li>
+                                    <li><Link to="/contact-us">Contact Us</Link></li>
+                                    <li><Link to="/terms-of-use">Terms</Link></li>
+                                    <li><Link to="/sitemap">Sitemap</Link></li>
+                                    <li><Link to="/privacy-policy">Privacy Policy</Link></li>
                                 </ul>
                             </div>
                                 <div className={footerStyles.social_links}>
