@@ -3,7 +3,8 @@ require("dotenv").config()
 module.exports = {
   siteMetadata: {
     siteUrl: "https://www.yourdomain.tld",
-    title: "H",
+    title: "Shockmouse Media",
+    logo: "./src/images/icon.png"
   },
   plugins: [
     "gatsby-plugin-image",
