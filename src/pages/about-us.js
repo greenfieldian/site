@@ -6,6 +6,7 @@ import Button from '../components/elements/button'
 import { Link } from 'gatsby'
 
 import DonateImg from "../assets/philanthropy.png"
+import Favicon from "../assets/favicon.png"
 import CTA from '../components/ctaComponent'
 
 import * as aboutStyles from "../styles/about.module.css"
@@ -28,6 +29,7 @@ export default function About() {
                 <meta charSet="utf-8" />
                 <title>About Us | Shockmouse Media</title>
                 <link rel="canonical" href="http://mysite.com/example" />
+                <link rel="icon" href={Favicon} />
             </Helmet>
             <Layout>
                 <Hero 

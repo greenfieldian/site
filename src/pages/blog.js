@@ -5,6 +5,8 @@ import { Helmet } from 'react-helmet'
 import Layout from '../components/layout'
 import ArticlePreview from '../components/article-preview'
 
+import Favicon from "../assets/favicon.png"
+
 class BlogIndex extends React.Component {
   render() {
     const siteTitle = get(this, 'props.data.site.siteMetadata.title')
@@ -13,7 +15,10 @@ class BlogIndex extends React.Component {
     return (
       <Layout location={this.props.location}>
         <div style={{ background: '#fff' }} className="container">
-        <Helmet title="Blog | ValuesU" />
+        <Helmet>
+        title="Blog | ValuesU" 
+        <link rel="icon" href={Favicon} />
+        </Helmet>
           <div className="">
             {/*<h2 className="section-headline">Recent articles</h2>*/}
             <ul className="article-list">

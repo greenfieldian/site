@@ -11,6 +11,7 @@ import ShopifyLogo from "../assets/shopify-darkgray.png"
 import MicrosoftLogo from "../assets/microsoft-lofo.png"
 import TableauLogo from "../assets/tableau-logo.png"
 import SalesforceLogo from "../assets/salesforce.png"
+import Favicon from "../assets/favicon.png"
 
 import * as partnerStyles from "../styles/partners.module.css"
 import 'swiper/css'
@@ -22,6 +23,7 @@ export default function Partners() {
                 <meta charSet="utf-8" />
                 <title>Partners | Shockmouse Media</title>
                 <link rel="canonical" href="http://mysite.com/example" />
+                <link rel="icon" href={Favicon} />
             </Helmet>
             <Layout>
                 <Hero 

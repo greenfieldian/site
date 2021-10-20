@@ -5,6 +5,7 @@ import Hero from '../components/hero'
 import Layout from '../components/layout'
 
 import DonateImg from "../assets/philanthropy.png"
+import Favicon from "../assets/favicon.png"
 
 import * as contactStyles from "../styles/contact.module.css"
 
@@ -17,6 +18,7 @@ export default function Contact() {
                 <meta charSet="utf-8" />
                 <title>Contact Us | Shockmouse Media</title>
                 <link rel="canonical" href="http://mysite.com/example" />
+                <link rel="icon" href={Favicon} />
             </Helmet>
             <Layout>
                 <Hero 

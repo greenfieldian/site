@@ -3,6 +3,7 @@ import { Link } from 'gatsby'
 import { Helmet } from "react-helmet"
 
 import DonateImg from "../assets/philanthropy.png"
+import Favicon from "../assets/favicon.png"
 
 import * as homepageStyles from "./homepage.module.css"
 import Layout from '../components/layout'
@@ -15,6 +16,7 @@ export default function Index() {
         <meta charSet="utf-8" />
         <title>Home | Shockmouse Media</title>
         <link rel="canonical" href="http://mysite.com/example" />
+        <link rel="icon" href={Favicon} />
       </Helmet>
 
     <Layout>
