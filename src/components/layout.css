@@ -18,6 +18,10 @@ ul {
 li {
     list-style-type: none;
 }
+img {
+    max-width: 100%;
+    height: auto;
+}
 label {
     display: inline-block;
     cursor: pointer;
@@ -185,6 +189,9 @@ input {
     text-transform: uppercase;
     border-top: 1px solid #000;
     padding-top: 1.5rem;
+}
+section.up {
+    margin-top: 60px;
 }
 /* Classes */
 

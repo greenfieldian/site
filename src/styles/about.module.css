@@ -1,0 +1,11 @@
+.animation_card {
+    background-color: #f0f0f0;
+    margin-bottom: 1rem;
+}
+.animation_card .text_render {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 12%;
+}

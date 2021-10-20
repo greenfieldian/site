@@ -33,15 +33,15 @@ export default function About() {
                     headline="We thrive on helping you figure out what's next."
                     description="Lorem ipsum dolor sit amet, consectetur adipscing elit, sed do eiusmod tompor incididunt ut labore et dolore magna aliqua."
                 />
-                <section>
-                    <header>
+                <section className="up">
+                    <header className="text-center">
                         <h3 className="headline">Our Trusted Process</h3>
                     </header>
                     <div className={aboutStyles.grid_holder + " " + "container"}>
                         <div className={aboutStyles.animation_card}>
                             <div className={aboutStyles.animation_card_bg}>
                                 <div className={aboutStyles.canvas_holder}>
-                                    <div className="text-render">
+                                    <div className={"text-render" + " " + aboutStyles.text_render}>
                                         <div className="text-wrapper">
                                             <h3 className="headline">
                                                 Harness the power of data and analytics
@@ -56,7 +56,7 @@ export default function About() {
                         <div className={aboutStyles.animation_card}>
                             <div className={aboutStyles.animation_card_bg}>
                                 <div className={aboutStyles.canvas_holder}>
-                                    <div className="text-render">
+                                    <div className={"text-render" + " " + aboutStyles.text_render}>
                                         <div className="text-wrapper">
                                             <h3 className="headline">
                                                 Build a digital culture
@@ -71,7 +71,7 @@ export default function About() {
                         <div className={aboutStyles.animation_card}>
                             <div className={aboutStyles.animation_card_bg}>
                                 <div className={aboutStyles.canvas_holder}>
-                                    <div className="text-render">
+                                    <div className={"text-render" + " " + aboutStyles.text_render}>
                                         <div className="text-wrapper">
                                             <h3 className="headline">
                                                 Modernize core technology
@@ -118,21 +118,21 @@ export default function About() {
                                 </div>
                             </div>
                         </div>
-                        <div>
+                        <div className="container">
                             <div>
-                                <Link>
+                                <Link to="/partners">
                                     <Button label="View All"/>
                                 </Link>
                             </div>
                         </div>
                     </section>
-                    <section>
-                        <div>
-                            <h2>Where we're from.</h2>
+                    <section className="up">
+                        <div className="container">
+                            <h2 className="text-center">Where we're from.</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                             <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                         </div>
-                        <div>
+                        <div className="container">
                             <img src={HomeImage}/>
                         </div>
                     </section>
