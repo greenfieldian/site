@@ -1,5 +1,7 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
+import { graphql } from 'gatsby'
+import get from 'lodash/get'
 import Layout from '../components/layout'
 import Hero from '../components/hero'
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -16,8 +18,12 @@ import Favicon from "../assets/favicon.png"
 import * as partnerStyles from "../styles/partners.module.css"
 import 'swiper/css'
 
-export default function Partners() {
-    return (
+class Partners extends React.Component {
+    render() {
+
+        const partners = get(this, 'props.data.allContentfulPartners.edges')
+
+        return (
         <div>
             <Helmet>
                 <meta charSet="utf-8" />
@@ -76,30 +82,16 @@ export default function Partners() {
                                         onSlideChange={() => console.log('slide change')}
                                         onSwiper={(swiper) => console.log(swiper)}
                                         >
-                                            <SwiperSlide>
-                                                <div className={partnerStyles.additional_text_wrapper}>
-                                                    <p className={partnerStyles.item_title}>Google Cloud</p>
-                                                    <p className={partnerStyles.item_description}>Content management and multilevel marketing automation</p>
-                                                </div>
-                                            </SwiperSlide>
-                                            <SwiperSlide>
-                                                <div className={partnerStyles.additional_text_wrapper}>
-                                                    <p className={partnerStyles.item_title}>Adobe</p>
-                                                    <p className={partnerStyles.item_description}>Content management and multilevel marketing automation</p>
-                                                </div>
-                                            </SwiperSlide>
-                                            <SwiperSlide>
-                                                <div className={partnerStyles.additional_text_wrapper}>
-                                                    <p className={partnerStyles.item_title}>Wordpress</p>
-                                                    <p className={partnerStyles.item_description}>Content management and multilevel marketing automation</p>
-                                                </div>
-                                            </SwiperSlide>
-                                            <SwiperSlide>
-                                                <div className={partnerStyles.additional_text_wrapper}>
-                                                    <p className={partnerStyles.item_title}>Contentful</p>
-                                                    <p className={partnerStyles.item_description}>Content management and multilevel marketing automation</p>
-                                                </div>
-                                            </SwiperSlide>
+                                            {partners.map(({ node }) => {
+                                                return (
+                                                <SwiperSlide>
+                                                    <div className={partnerStyles.additional_text_wrapper}>
+                                                        <p className={partnerStyles.item_title}>{node.name}</p>
+                                                        <p className={partnerStyles.item_description}>Content management and multilevel marketing automation</p>
+                                                    </div>
+                                                </SwiperSlide>
+                                                )
+                                            })}
                                         </Swiper>
                                     </div>
                                 </div>
@@ -109,5 +101,20 @@ export default function Partners() {
                 </div>
             </Layout>
         </div>
-    )
+        )
+    }
 }
+
+export default Partners
+
+export const pageQuery = graphql`
+  query PartnersIndexQuery {
+    allContentfulPartners {
+        edges {
+          node {
+            name
+          }
+        }
+    }
+  }
+`
