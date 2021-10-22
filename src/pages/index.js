@@ -9,6 +9,8 @@ import * as homepageStyles from "./homepage.module.css"
 import Layout from '../components/layout'
 import CTA from '../components/ctaComponent'
 
+import RacialEquity from "../assets/racism-equity.png"
+
 export default function Index() {
   return (
     <>
@@ -98,7 +100,7 @@ export default function Index() {
             <div className={homepageStyles.feature_row}>
               <div className={homepageStyles.feature_container}>
                 <Link>
-                  <div></div>
+                  <div className={homepageStyles.feature_background_1 + " " + homepageStyles.feature_background}></div>
                   <div className={homepageStyles.feature_content}>
                     <time>October 12, 2021</time>
                     <h3>Moving forward: Our stance on advancing racial equity in America</h3>
@@ -107,14 +109,14 @@ export default function Index() {
               </div>
               <div className={homepageStyles.feature_container}>
                 <div className={homepageStyles.feature_2_3_container}>
-                  <Link>
-                    <div></div>
+                  <Link className={homepageStyles.feature_inner + " " + homepageStyles.feature_3}>
+                    <div className={homepageStyles.feature_background_1 + " " + homepageStyles.feature_background}></div>
                     <div className={homepageStyles.feature_content}>
                       <time>August 15th, 2021</time>
                       <h3>From designers for designers: Where to look for design inspiration</h3>
                     </div>
                   </Link>
-                  <Link>
+                  <Link className={homepageStyles.feature_inner + " " + homepageStyles.feature_3}>
                     <div className={homepageStyles.feature_content}>
                       <time>October 5th, 2021</time>
                       <h3>Fiscal year in review: Analyzing the best and worst of 2021</h3>
@@ -126,7 +128,7 @@ export default function Index() {
             <div className={homepageStyles.feature_row}>
               <div className={homepageStyles.feature_container}>
                 <Link>
-                  <div></div>
+                  <div className={homepageStyles.feature_background_1 + " " + homepageStyles.feature_background}></div>
                   <div className={homepageStyles.feature_content}>
                     <time>September 15th, 2021</time>
                     <h3>Product pricing: Our pricing strategy to maximize conversions</h3>
@@ -134,7 +136,13 @@ export default function Index() {
                 </Link>
               </div>
               <div className={homepageStyles.feature_container}>
-                <Link></Link>
+                <Link>
+                  <div className={homepageStyles.feature_background_1 + " " + homepageStyles.feature_background}></div>
+                  <div className={homepageStyles.feature_content}>
+                    <time>September 15th, 2021</time>
+                    <h3>How Digital Nomads can Avoid the Dreaded Freelancer Curse</h3>
+                  </div>
+                </Link>
                 <div className={homepageStyles.read_more_container}>
                   <Link className="cta -arrow">Read more on our blog</Link>
                 </div>
