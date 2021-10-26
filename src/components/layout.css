@@ -198,8 +198,8 @@ section.up {
 
 /* Bootstrap Override */
 .container {
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 7%;
+    padding-right: 7%;
 }
 .navbar {
     background: rgba(0,0,0,0);
