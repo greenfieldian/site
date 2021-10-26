@@ -197,6 +197,10 @@ section.up {
 /* Classes */
 
 /* Bootstrap Override */
+.container {
+    padding-left: 5%;
+    padding-right: 5%;
+}
 .navbar {
     background: rgba(0,0,0,0);
     color: #fff;
