@@ -12,9 +12,12 @@ footer {
 }
 .sub_detail .form_content label {
     text-transform: none;
-    font-size: 1rem;
+    font-size: 1.125rem;
     line-height: 2rem;
     font-weight: 700;
+}
+.sub_detail .form_content p {
+    font-weight: 300;
 }
 .field_group {
     display: flex;
@@ -58,4 +61,5 @@ footer {
     padding-bottom: 2.5rem;
     border-top: 1px solid #b3b3b3;
     margin-top: 1rem;
+    font-size: .875rem;
 }
