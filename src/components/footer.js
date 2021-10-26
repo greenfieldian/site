@@ -19,7 +19,7 @@ export default class Footer extends Component {
                             <div></div>
                             <form method="POST" className={footerStyles.form_content}>
                                 <label for="signupemail">Subscribe</label>
-                                <p>Get exclusive insights sent directly to your mailbox.</p>
+                                <p className="description">Get exclusive insights sent directly to your mailbox.</p>
                                 <div className={footerStyles.field_group}>
                                     <div className={footerStyles.field}>
                                         <div className={footerStyles.control}>
