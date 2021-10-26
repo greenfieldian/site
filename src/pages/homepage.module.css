@@ -27,6 +27,14 @@
 .section_content {
     padding-top: 48px;
 }
+/* Homepage Insights Posts */
+.hybrid_post_image {
+    background-image: url(../assets/hybrid-homepage-post.png);
+    background-size: cover;
+    background-position: center center;
+    min-height: 250px;
+}
+/* Homepage Insights Posts */
 .blog_feature {
     margin-top: 60px;
     clear: both;

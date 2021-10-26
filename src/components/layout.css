@@ -191,8 +191,12 @@ input {
     border-top: 1px solid #000;
     padding-top: 1.5rem;
 }
-section.up {
+.section.up {
     margin-top: 60px;
+}
+.reverse-mobile {
+    display: flex;
+    flex-direction: column-reverse;
 }
 /* Classes */
 

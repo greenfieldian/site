@@ -39,7 +39,7 @@ export default function Index() {
       </div>
       <div className="wrapper">
         <section>
-          <div>
+          <div className="reverse-mobile">
             <div className="item bg-white">
               <div className={homepageStyles.item_content_wrap}>
                 <div className="text-wrapper container two-up-left">
@@ -53,7 +53,9 @@ export default function Index() {
                 </div>
               </div>
             </div>
-            <div className="item bg-white"></div>
+            <div className={"item bg-white two-up-right" + " " + homepageStyles.hybrid_post_image}>
+              <div></div>
+            </div>
           </div>
         </section>
         <section>
