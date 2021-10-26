@@ -53,14 +53,14 @@ export default function Index() {
                 </div>
               </div>
             </div>
-            <div className={"item bg-white two-up-right" + " " + homepageStyles.hybrid_post_image}>
+            <div className={"item bg-white two-up-right" + " " + homepageStyles.hybrid_post_image + " " + homepageStyles.post_image}>
               <div></div>
             </div>
           </div>
         </section>
         <section>
           <div>
-            <div className="item bg-lightest-grey"></div>
+            <div className={"item bg-lightest-grey" + " " + homepageStyles.analytics_post_image + " " + homepageStyles.post_image}></div>
             <div className="item bg-lightest-grey">
               <div className={homepageStyles.item_content_wrap}>
                 <div className="text-wrapper container two-up-right">
@@ -75,7 +75,7 @@ export default function Index() {
           </div>
         </section>
         <section>
-          <div>
+          <div className="reverse-mobile">
             <div className="item bg-lightest-grey">
               <div className={homepageStyles.item_content_wrap}>
                 <div className="text-wrapper container two-up-left">
@@ -89,7 +89,7 @@ export default function Index() {
                 </div>
               </div>
             </div>
-            <div className="item bg-white"></div>
+            <div className={"item bg-white two-up-right" + " " + homepageStyles.web3_post_image + " " + homepageStyles.post_image}></div>
           </div>
         </section>
       </div>

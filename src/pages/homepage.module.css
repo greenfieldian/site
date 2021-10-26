@@ -28,11 +28,19 @@
     padding-top: 48px;
 }
 /* Homepage Insights Posts */
-.hybrid_post_image {
-    background-image: url(../assets/hybrid-homepage-post.png);
+.post_image {
     background-size: cover;
     background-position: center center;
     min-height: 250px;
+}
+.hybrid_post_image {
+    background-image: url(../assets/hybrid-homepage-post.png);
+}
+.analytics_post_image {
+    background-image: url(../assets/acting-on-analytics-image.jpeg);
+}
+.web3_post_image {
+    background-image: url(../assets/navigating-web3-image.jpeg);
 }
 /* Homepage Insights Posts */
 .blog_feature {
