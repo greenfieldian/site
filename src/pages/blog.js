@@ -4,8 +4,11 @@ import get from 'lodash/get'
 import { Helmet } from 'react-helmet'
 import Layout from '../components/layout'
 import ArticlePreview from '../components/article-preview'
+import Hero from '../components/hero'
 
 import Favicon from "../assets/favicon.png"
+import DonateImg from "../assets/philanthropy.png"
+import SubCTA from '../components/subCTA'
 
 class BlogIndex extends React.Component {
   render() {
@@ -14,24 +17,28 @@ class BlogIndex extends React.Component {
 
     return (
       <Layout location={this.props.location}>
-        <div style={{ background: '#fff' }} className="container">
         <Helmet>
         title="Blog | ValuesU" 
         <link rel="icon" href={Favicon} />
         </Helmet>
-          <div className="">
-            {/*<h2 className="section-headline">Recent articles</h2>*/}
-            <ul className="article-list">
-              {posts.map(({ node }) => {
-                return (
-                  <li key={node.slug} className="blog-item">
-                    <ArticlePreview article={node} />
-                  </li>
-                )
-              })}
-            </ul>
-          </div>
+        <Hero 
+          image={DonateImg}
+          headline="We thrive on helping you figure out what's next."
+          description="Lorem ipsum dolor sit amet, consectetur adipscing elit, sed do eiusmod tompor incididunt ut labore et dolore magna aliqua."
+        />
+        <div className="container">
+          {/*<h2 className="section-headline">Recent articles</h2>*/}
+          <ul className="article-list">
+            {posts.map(({ node }) => {
+              return (
+                <li key={node.slug} className="blog-item">
+                  <ArticlePreview article={node} />
+                </li>
+              )
+            })}
+          </ul>
         </div>
+        <SubCTA />
       </Layout>
     )
   }
@@ -46,6 +53,14 @@ export const pageQuery = graphql`
         node {
           title
           slug
+          subtitle {
+            subtitle
+          }
+          featuredImage {
+            fluid(maxWidth: 350, maxHeight: 196, resizingBehavior: SCALE) {
+              ...GatsbyContentfulFluid
+            }
+          }
         }
       }
     }
