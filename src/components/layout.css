@@ -2,7 +2,7 @@
 html, body {
     margin: 0;
     padding: 0;
-    font-family: neue-haas-unica, sans-serif;
+    font-family: Circular Book, sans-serif;
     font-weight: 300;
     font-size: 1rem;
     line-height: 1.5rem;
@@ -86,6 +86,14 @@ input {
     --accent-blue: #2251FF;
     --light-accent-blue: #00A9F4;
 }
+@font-face {
+    font-family: 'Circular Book';
+    src: local('Circular Book'), url(../fonts/lineto-circular-book-s.subset.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Circular Bold';
+    src: local('Circular Bold'), url(../fonts/lineto-circular-bold-s.subset.ttf) format('truetype');
+}
 /* Variables */
 
 /* Classes */
@@ -158,7 +166,7 @@ input {
     font-weight: 600;
     font-size: 1.75rem;
     line-height: 2.75rem;
-    font-family: neue-haas-unica, sans-serif;;
+    font-family: Circular Bold, sans-serif;;
 }
 
 .text-wrapper .description {
