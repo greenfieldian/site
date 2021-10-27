@@ -27,7 +27,7 @@ export default function Index() {
         <div className={homepageStyles.section_content}>
           <div className="text-wrapper container">
             <div className="text-render">
-              <h2 className="headline">Bridging the digial gap</h2>
+              <h2 className="headline">Bridging the digital gap</h2>
               <p className="description">We're a strategic agency leveraging technology to bridge the gap between you and your objectives.</p>
               <div className={homepageStyles.cta_container}>
                 <Link to="/about-us" className="cta arrow">Learn more about who we are</Link>
@@ -101,7 +101,7 @@ export default function Index() {
           <div className={homepageStyles.blog_feature_container}>
             <div className={homepageStyles.feature_row}>
               <div className={homepageStyles.feature_container}>
-                <Link>
+                <Link className={homepageStyles.feature_inner}>
                   <div className={homepageStyles.feature_background_1 + " " + homepageStyles.feature_background}></div>
                   <div className={homepageStyles.feature_content}>
                     <time>October 12, 2021</time>
@@ -111,8 +111,8 @@ export default function Index() {
               </div>
               <div className={homepageStyles.feature_container}>
                 <div className={homepageStyles.feature_2_3_container}>
-                  <Link className={homepageStyles.feature_inner + " " + homepageStyles.feature_3}>
-                    <div className={homepageStyles.feature_background_1 + " " + homepageStyles.feature_background}></div>
+                  <Link className={homepageStyles.feature_inner + " " + homepageStyles.feature_2}>
+                    <div className={homepageStyles.feature_background_2 + " " + homepageStyles.feature_background}></div>
                     <div className={homepageStyles.feature_content}>
                       <time>August 15th, 2021</time>
                       <h3>From designers for designers: Where to look for design inspiration</h3>
@@ -129,8 +129,8 @@ export default function Index() {
             </div>
             <div className={homepageStyles.feature_row}>
               <div className={homepageStyles.feature_container}>
-                <Link>
-                  <div className={homepageStyles.feature_background_1 + " " + homepageStyles.feature_background}></div>
+                <Link className={homepageStyles.feature_inner}>
+                  <div className={homepageStyles.feature_background_3 + " " + homepageStyles.feature_background}></div>
                   <div className={homepageStyles.feature_content}>
                     <time>September 15th, 2021</time>
                     <h3>Product pricing: Our pricing strategy to maximize conversions</h3>
@@ -138,15 +138,15 @@ export default function Index() {
                 </Link>
               </div>
               <div className={homepageStyles.feature_container}>
-                <Link>
-                  <div className={homepageStyles.feature_background_1 + " " + homepageStyles.feature_background}></div>
+                <Link className={homepageStyles.feature_inner}>
+                  <div className={homepageStyles.feature_background_4 + " " + homepageStyles.feature_background}></div>
                   <div className={homepageStyles.feature_content}>
                     <time>September 15th, 2021</time>
                     <h3>How Digital Nomads can Avoid the Dreaded Freelancer Curse</h3>
                   </div>
                 </Link>
                 <div className={homepageStyles.read_more_container}>
-                  <Link className="cta -arrow">Read more on our blog</Link>
+                  <Link className="cta arrow-white">Read more on our blog</Link>
                 </div>
               </div>
             </div>

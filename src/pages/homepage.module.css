@@ -45,7 +45,7 @@
 }
 /* Homepage Insights Posts */
 .blog_feature {
-    margin-top: 60px;
+    margin-top: 40px;
     clear: both;
     display: inline-block;
 }
@@ -75,6 +75,17 @@
     width: 100%;
     height: auto;
     z-index: 2;
+}
+.feature_inner {
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    min-height: 90vw;
+}
+.feature_inner.feature_3 {
+    background: var(--primary-blue);
+    color: #fff;
 }
 .read_more_container {
     background: var(--accent-blue);
@@ -122,4 +133,13 @@
 
 .feature_background_1 {
     background-image: url("../assets/racism-equity.png");
+}
+.feature_background_2 {
+    background-image: url("../assets/design-inspiration.png");
+}
+.feature_background_3 {
+    background-image: url("../assets/product-pricing.png");
+}
+.feature_background_4 {
+    background-image: url("../assets/digital-nomad.png");
 }

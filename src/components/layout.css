@@ -131,6 +131,19 @@ input {
     margin: 0;
     top: 0;
 }
+.arrow-white:after {
+    position: relative;
+    line-height: inherit;
+    vertical-align: bottom;
+    padding-left: 25px;
+    right: 10px;
+    content: "\2794";
+    color: #fff;
+    -webkit-transition: right 0.4s, color 120ms;
+    transition: right 0.4s, color 120ms;
+    margin: 0;
+    top: 0;
+}
 
 .item img {
     max-width: 100%;
