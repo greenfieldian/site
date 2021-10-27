@@ -25,7 +25,8 @@
     height: 100%;
 }
 .section_content {
-    padding-top: 48px;
+    padding-top: 120px;
+    padding-bottom: 40px;
 }
 /* Homepage Insights Posts */
 .post_image {

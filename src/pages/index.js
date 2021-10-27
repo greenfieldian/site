@@ -1,15 +1,15 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import { Helmet } from "react-helmet"
+import Footer from "../components/footer"
 
 import DonateImg from "../assets/philanthropy.png"
 import Favicon from "../assets/favicon.png"
 
 import * as homepageStyles from "./homepage.module.css"
-import Layout from '../components/layout'
+import HeaderWhite from '../components/headerWhite'
 import CTA from '../components/ctaComponent'
 
-import RacialEquity from "../assets/racism-equity.png"
 
 export default function Index() {
   return (
@@ -21,17 +21,17 @@ export default function Index() {
         <link rel="icon" href={Favicon} />
       </Helmet>
 
-    <Layout>
+    <HeaderWhite />
       <div className={homepageStyles.hero}>
         <div className={homepageStyles.bg}></div>
         <div className={homepageStyles.section_content}>
           <div className="text-wrapper container">
             <div className="text-render">
-              <h2 className="headline">We're a strategic agency leveraging technology to bridge the gap between you and your objectives.</h2>
-              <p className="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
+              <h2 className="headline">Bridging the digial gap</h2>
+              <p className="description">We're a strategic agency leveraging technology to bridge the gap between you and your objectives.</p>
               <div className={homepageStyles.cta_container}>
-                <Link className="cta arrow">Learn more about who we are</Link>
-                <Link className="cta arrow">Start a conversation</Link>
+                <Link to="/about-us" className="cta arrow">Learn more about who we are</Link>
+                <Link to="/contact-us" className="cta arrow">Start a conversation</Link>
               </div>
             </div>
           </div>
@@ -172,7 +172,7 @@ export default function Index() {
         </div>
       </section>
       <CTA/>
-    </Layout>
+      <Footer />
     </>
   )
 }

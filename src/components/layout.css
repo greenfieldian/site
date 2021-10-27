@@ -221,6 +221,9 @@ input {
     color: rgba(255,255,255,1);
     border: none;
 }
+.nav-white-toggle span {
+    color: #fff !important;
+}
 /* Bootstrap Override */
 
 /* CTA Section */
