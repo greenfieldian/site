@@ -14,6 +14,10 @@
 .hero .cta:first-child {
     margin-top: 1.5rem;
 }
+.hero_headline {
+    font-size: 3.125rem !important;
+    margin-bottom: 2rem;
+}
 
 .bg {
     background: linear-gradient(

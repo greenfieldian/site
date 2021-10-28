@@ -27,7 +27,7 @@ export default function Index() {
         <div className={homepageStyles.section_content}>
           <div className="text-wrapper container">
             <div className="text-render">
-              <h2 className="headline">Bridging the digital gap</h2>
+              <h2 className={homepageStyles.hero_headline}>Bridging the digital gap</h2>
               <p className="description">We're a strategic agency leveraging technology to bridge the gap between you and your objectives.</p>
               <div className={homepageStyles.cta_container}>
                 <Link to="/about-us" className="cta arrow">Learn more about who we are</Link>
