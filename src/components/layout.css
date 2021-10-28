@@ -186,14 +186,6 @@ input {
     padding-top: 45px;
     padding-bottom: 45px;
 }
-.section-header {
-    font-weight: 600;
-    font-size: 1rem;
-    line-height: 1.5rem;
-    letter-spacing: .075em;
-    color: #000;
-    text-transform: uppercase;
-}
 .lead {
     margin-top: 1rem;
     margin-bottom: 1.25rem;
@@ -204,7 +196,7 @@ input {
 }
 .section-header {
     font-weight: 600;
-    font-size: 1rem;
+    font-size: .875rem;
     line-height: 1.5rem;
     letter-spacing: .075em;
     color: #000;
