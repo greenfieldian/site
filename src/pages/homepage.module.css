@@ -3,6 +3,7 @@
     width: 100%;
     padding-bottom: 1rem;
     margin-top: -80px;
+    height: 80vh;
 }
 .hero * {
     color: #fff;
@@ -25,7 +26,7 @@
     height: 100%;
 }
 .section_content {
-    padding-top: 120px;
+    padding-top: 240px;
     padding-bottom: 40px;
 }
 /* Homepage Insights Posts */
