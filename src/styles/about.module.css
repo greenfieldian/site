@@ -1,3 +1,6 @@
+.section_header {
+    font-size: 1.125rem;
+}
 .animation_card {
     background-color: #f0f0f0;
     margin-bottom: 1rem;
@@ -7,9 +10,11 @@
     left: 0;
     right: 0;
     bottom: 0;
-    padding: 12%;
+    padding: 25% 12%;
 }
 .values_container {
     background: var(--primary-blue);
     color: #fff;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }

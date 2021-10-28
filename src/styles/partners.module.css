@@ -22,9 +22,12 @@
 .additional_partner_container {
     background: var(--primary-blue);
     color: #fff;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 .additional_partner_container .subsection_header {
     color: #fff;
+    border-top: none;
 }
 .additional_main_container h3 {
     line-height: 2rem;

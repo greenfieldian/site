@@ -37,9 +37,9 @@ export default function About() {
                     headline="We thrive on helping you figure out what's next."
                     description="Lorem ipsum dolor sit amet, consectetur adipscing elit, sed do eiusmod tompor incididunt ut labore et dolore magna aliqua."
                 />
-                <section className="up">
+                <section className="up section">
                     <header className="text-center">
-                        <h3 className="headline">Our Trusted Process</h3>
+                        <h3 className={"headline" + " " + aboutStyles.section_header}>Our Trusted Process</h3>
                     </header>
                     <div className={aboutStyles.grid_holder + " " + "container"}>
                         <div className={aboutStyles.animation_card}>
@@ -130,9 +130,9 @@ export default function About() {
                             </div>
                         </div>
                     </section>
-                    <section className="up">
+                    <section className="up section">
                         <div className="container">
-                            <h2 className="text-center">Where we're from.</h2>
+                            <h2 className={"headline text-center" + " " + aboutStyles.section_header}>Where we're from.</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                             <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                         </div>
@@ -141,7 +141,7 @@ export default function About() {
                         </div>
                     </section>
                     <section className={"up" + " " + aboutStyles.values_container}>
-                        <div>
+                        <div className="container">
                             <header className="headline">
                                 <h3>Our Values</h3>
                             </header>
@@ -167,7 +167,7 @@ export default function About() {
                             </ul>
                         </div>
                     </section>
-                    <section>
+                    <section className="section up">
                         <div className="container">
                             <div className="row">
                                 <header>
