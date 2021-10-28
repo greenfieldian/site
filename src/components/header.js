@@ -10,7 +10,7 @@ import Logo from "../assets/sample-shockmouse-logo.png"
 
 export default function Header() {
     return (
-        <Navbar expand="lg">
+        <Navbar expand="lg" className="border-bottom border-dark">
   <Container>
     <Navbar.Brand href="/"><img src={Logo} /></Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
