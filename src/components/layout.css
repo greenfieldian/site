@@ -103,7 +103,7 @@ input {
     src: url(../fonts/ShockmouseSans-Regular.ttf) format('truetype');
 }
 @font-face {
-    font-family: 'ShockmouseSans';
+    font-family: 'ShockmouseSans-Medium';
     src: url(../fonts/ShockmouseSans-Medium.ttf) format('truetype');
 }
 /* Variables */
@@ -208,7 +208,7 @@ input {
 }
 .section-header {
     font-weight: 600;
-    font-size: .875rem;
+    font-size: 1rem;
     line-height: 1.5rem;
     letter-spacing: .075em;
     color: #000;

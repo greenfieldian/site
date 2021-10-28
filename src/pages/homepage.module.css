@@ -62,6 +62,7 @@
 }
 .header_wrapper h2 {
     border-top: none;
+    margin-bottom: 30px;
 }
 
 .feature_content {
@@ -83,6 +84,7 @@
     z-index: 2;
 }
 .feature_content h3 {
+    font-family: ShockmouseSans-Medium, sans-serif;
     font-weight: 500;
 }
 .feature_inner {

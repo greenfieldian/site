@@ -95,7 +95,7 @@ export default function Index() {
       </div>
       <div className={homepageStyles.blog_feature}>
         <div className={homepageStyles.header_wrapper}>
-          <h2 className="section-header section-header centered">From our blog</h2>
+          <h2 className={"section-header section-header centered" + " " + homepageStyles.blog_header}>From our blog</h2>
         </div>
         <div className={homepageStyles.blog_feature_wrapper}>
           <div className={homepageStyles.blog_feature_container}>
