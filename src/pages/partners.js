@@ -39,6 +39,20 @@ class Partners extends React.Component {
                 />
                 <div>
                     <section className={partnerStyles.core_partners_container}>
+                        <div className="container">
+                            <div className="row">
+                                <div className="col-12 col-lg-10 pt-5">
+                                    <div>
+                                        <div>
+                                            <h3 className="headline">Let's go further, together</h3>
+                                        </div>
+                                        <div>
+                                            <p>Whether you already have an implementation in mind or are just getting started, our technology experts focus on your business goals and desired outcomes first. Not sure where to start? We’ll work with you to design and implement the right cloud, data, or digital experience solution for your team.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <header className="container">
                             <h2 className={"section-header" + " " + partnerStyles.section_header}>Core Technology Partners</h2>
                         </header>
