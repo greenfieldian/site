@@ -146,7 +146,7 @@ export default function Index() {
                   </div>
                 </Link>
                 <div className={homepageStyles.read_more_container}>
-                  <Link className="cta arrow-white">Read more on our blog</Link>
+                  <Link className="cta arrow-white" to="/blog">Read more on our blog</Link>
                 </div>
               </div>
             </div>
