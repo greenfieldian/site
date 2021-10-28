@@ -7,7 +7,7 @@ import DonateImg from "../assets/philanthropy.png"
 import Favicon from "../assets/favicon.png"
 
 import * as homepageStyles from "./homepage.module.css"
-import Header from '../components/Header'
+import Header from '../components/header'
 import CTA from '../components/ctaComponent'
 
 
