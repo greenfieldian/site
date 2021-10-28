@@ -102,6 +102,10 @@ input {
     font-family: 'ShockmouseSans';
     src: url(../fonts/ShockmouseSans-Regular.ttf) format('truetype');
 }
+@font-face {
+    font-family: 'ShockmouseSans';
+    src: url(../fonts/ShockmouseSans-Medium.ttf) format('truetype');
+}
 /* Variables */
 
 /* Classes */

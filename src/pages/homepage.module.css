@@ -82,6 +82,9 @@
     height: auto;
     z-index: 2;
 }
+.feature_content h3 {
+    font-weight: 500;
+}
 .feature_inner {
     position: relative;
     display: flex;
