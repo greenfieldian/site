@@ -2,7 +2,7 @@
 html, body {
     margin: 0;
     padding: 0;
-    font-family: Circular Book, sans-serif;
+    font-family: ShockmouseSans, sans-serif;
     font-weight: 300;
     font-size: 1rem;
     line-height: 1.5rem;
@@ -94,6 +94,14 @@ input {
     font-family: 'Circular Bold';
     src: local('Circular Bold'), url(../fonts/lineto-circular-bold-s.subset.ttf) format('truetype');
 }
+@font-face {
+    font-family: 'Bower';
+    src: url(../fonts/Bower-Bold.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'ShockmouseSans';
+    src: url(../fonts/ShockmouseSans-Regular.ttf) format('truetype');
+}
 /* Variables */
 
 /* Classes */
@@ -166,7 +174,7 @@ input {
     font-weight: 700;
     font-size: 1.5rem;
     line-height: 2.75rem;
-    font-family: Circular Bold, sans-serif;;
+    font-family: 'Bower', serif;;
 }
 
 .text-wrapper .description {
