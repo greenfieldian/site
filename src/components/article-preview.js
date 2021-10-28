@@ -11,7 +11,7 @@ export default ({ article }) => (
       <div>
         <Link to={`/blog/${article.slug}`}>
           <Img
-              className=""
+              className={articleStyles.article_img}
               alt={article.title}
               fluid={article.featuredImage.fluid}
             />

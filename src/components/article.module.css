@@ -1,12 +1,16 @@
 .article {
     margin-top: 30px;
 }
+.article .article_img{
+    height: 200px;
+}
 .text_contain {
     padding-top: 15px;
     padding-bottom: 15px;
 }
 .header {
     font-size: 20px;
+    font-family: ShockmouseSans-Medium, sans-serif;
 }
 .article_subtitle {
     font-size: 14px;
