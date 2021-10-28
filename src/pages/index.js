@@ -7,7 +7,7 @@ import DonateImg from "../assets/philanthropy.png"
 import Favicon from "../assets/favicon.png"
 
 import * as homepageStyles from "./homepage.module.css"
-import HeaderWhite from '../components/headerWhite'
+import Header from '../components/Header'
 import CTA from '../components/ctaComponent'
 
 
@@ -21,13 +21,13 @@ export default function Index() {
         <link rel="icon" href={Favicon} />
       </Helmet>
 
-    <HeaderWhite />
+    <Header />
       <div className={homepageStyles.hero}>
         <div className={homepageStyles.bg}></div>
         <div className={homepageStyles.section_content}>
           <div className="text-wrapper container">
             <div className="text-render">
-              <h2 className={homepageStyles.hero_headline + " " + "headline"}>Bridging the digital gap</h2>
+              <h2 className={homepageStyles.hero_headline + " " + "headline"}>Bridging the gap between you and your objectives</h2>
               <p className="description">We're a strategic agency leveraging technology to bridge the gap between you and your objectives.</p>
               <div className={homepageStyles.cta_container}>
                 <Link to="/about-us" className="cta arrow">Learn more about who we are</Link>
