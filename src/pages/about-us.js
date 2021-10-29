@@ -143,7 +143,7 @@ export default function About() {
                     <section className={"up section" + " " + aboutStyles.values_container}>
                         <div className="container">
                             <header className="headline">
-                                <h3>Our Values</h3>
+                                <h3 className={"section-header text-white text-center" + " " + partnerStyles.section_header}>Our Values</h3>
                             </header>
                             <ul>
                                 <li>
@@ -171,7 +171,7 @@ export default function About() {
                         <div className="container">
                             <div className="row">
                                 <header>
-                                    <h2>How We Give Back</h2>
+                                    <h2 className={"section-header" + " " + partnerStyles.section_header}>How We Give Back</h2>
                                     <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi</p>
                                 </header>
                                 <div>
