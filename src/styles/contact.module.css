@@ -37,6 +37,9 @@
 .form_group {
     margin-bottom: 36px;
 }
+.form_group label {
+    font-family: ShockmouseSans-Medium, sans-serif;
+}
 .privacy_disclosure {
     color: #757575;
     font-size: .8125rem;
