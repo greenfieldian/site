@@ -1,5 +1,5 @@
 .section_header {
-    font-size: 1.125rem;
+    font-size: 1.75rem;
 }
 .animation_card {
     background-color: #f0f0f0;
@@ -33,3 +33,6 @@
     color: #fff;
     opacity: 0.7
 }*/
+.button_link_container {
+    text-align: center;
+}

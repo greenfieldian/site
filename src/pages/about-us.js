@@ -123,14 +123,14 @@ export default function About() {
                             </div>
                         </div>
                         <div className="container">
-                            <div>
+                            <div className={aboutStyles.button_link_container}>
                                 <Link to="/partners">
                                     <Button label="View All"/>
                                 </Link>
                             </div>
                         </div>
                     </section>
-                    <section className="up section">
+                    {/*<section className="up section">
                         <div className="container">
                             <h2 className={"headline text-center" + " " + aboutStyles.section_header}>Where we're from.</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -139,8 +139,8 @@ export default function About() {
                         <div className="container">
                             <img src={HomeImage}/>
                         </div>
-                    </section>
-                    <section className={"up" + " " + aboutStyles.values_container}>
+                    </section>*/}
+                    <section className={"up section" + " " + aboutStyles.values_container}>
                         <div className="container">
                             <header className="headline">
                                 <h3>Our Values</h3>
