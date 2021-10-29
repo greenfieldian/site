@@ -21,6 +21,7 @@
     padding: 1px .5rem 1px 2px;
 }
 .form_fieldset input[type='radio'] {
+    margin-top: .3rem;
     margin-right: 5px;
     display: inline-block;
 }

@@ -40,19 +40,19 @@ export default function Contact() {
                                                     <legend>I'm reaching out about: </legend>
                                                     <div className={contactStyles.fieldset_column_3}>
                                                         <div className={contactStyles.fieldset_option}>
-                                                            <label>
+                                                            <label className="d-flex">
                                                                 <input type="radio" checked="checked" name="contactRadio"/>
                                                                 <span>Project Inquiry</span>
                                                             </label>
                                                         </div>
                                                         <div className={contactStyles.fieldset_option}>
-                                                            <label>
+                                                            <label className="d-flex">
                                                                 <input type="radio" name="contactRadio"/>
                                                                 <span>General</span>
                                                             </label>
                                                         </div>
                                                         <div className={contactStyles.fieldset_option}>
-                                                            <label>
+                                                            <label className="d-flex">
                                                                 <input type="radio" name="contactRadio"/>
                                                                 <span>Career Opportunities</span>
                                                             </label>
@@ -60,13 +60,13 @@ export default function Contact() {
                                                     </div>
                                                     <div className={contactStyles.fieldset_column_3}>
                                                         <div className={contactStyles.fieldset_option}>
-                                                            <label>
+                                                            <label className="d-flex">
                                                                 <input type="radio" name="contactRadio"/>
                                                                 <span>Speaking</span>
                                                             </label>
                                                         </div>
                                                         <div className={contactStyles.fieldset_option}>
-                                                            <label>
+                                                            <label className="d-flex">
                                                                 <input type="radio" name="contactRadio"/>
                                                                 <span>Customer Support</span>
                                                             </label>

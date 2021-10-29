@@ -172,7 +172,7 @@ export default function About() {
                             <div className="row">
                                 <header>
                                     <h2 className={"section-header" + " " + partnerStyles.section_header}>How We Give Back</h2>
-                                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi</p>
+                                    <p>At vero eos milique sunt in culpa qui officia deserunt mollitia animi</p>
                                 </header>
                                 <div>
                                     <div className={aboutStyles.hero_container}>
