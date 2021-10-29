@@ -21,11 +21,6 @@ export default function Contact() {
                 <link rel="icon" href={Favicon} />
             </Helmet>
             <Layout>
-                <Hero 
-                    image={DonateImg}
-                    headline="We thrive on helping you figure out what's next."
-                    description="Lorem ipsum dolor sit amet, consectetur adipscing elit, sed do eiusmod tompor incididunt ut labore et dolore magna aliqua."
-                />
                 <div>
                     <div className="wrapper">
                         <div className="container">

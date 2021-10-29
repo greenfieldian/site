@@ -9,7 +9,7 @@ import * as footerStyles from "./footer.module.css"
 export default class Footer extends Component {
     render() {
         return (
-            <footer className="container">
+            <footer className="container border-top border-dark">
                 <section>
                     <div className={footerStyles.logo_icon}>
                         <img src={Logo}/>
