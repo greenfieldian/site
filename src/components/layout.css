@@ -271,3 +271,17 @@ input {
     width: 65% !important;
 }
 /* SwiperJS */
+
+@media (min-width: 768px) {
+    .reverse-mobile {
+        flex-direction: row;
+        min-height: 350px;
+    }
+    .reverse-mobile .item, .straight-mobile .item {
+        width: 50%;
+    }
+    .straight-mobile {
+        display: flex;
+        flex-direction: row ;
+    }
+}

@@ -13,7 +13,7 @@ import Logo from "../assets/logo-white.png"
 export default function HeaderWhite() {
     return (
         <Navbar expand="lg" variant="light">
-  <Container>
+  <div className="container">
     <Navbar.Brand href="/"><img src={Logo} /></Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" className="nav-white-toggle"><GiHamburgerMenu size="30"/></Navbar.Toggle>
     <Navbar.Collapse id="basic-navbar-nav" className="nav-white-collapse">
@@ -29,7 +29,7 @@ export default function HeaderWhite() {
         </NavDropdown>
       </Nav>
     </Navbar.Collapse>
-  </Container>
+  </div>
 </Navbar>
     )
 }

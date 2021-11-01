@@ -65,7 +65,7 @@ export default function Index() {
           </div>
         </section>
         <section>
-          <div>
+          <div className="straight-mobile">
             <div className={"item bg-lightest-grey" + " " + homepageStyles.analytics_post_image + " " + homepageStyles.post_image}></div>
             <div className="item bg-lightest-grey">
               <div className={homepageStyles.item_content_wrap}>
@@ -107,7 +107,7 @@ export default function Index() {
           <div className={homepageStyles.blog_feature_container}>
             <div className={homepageStyles.feature_row}>
               <div className={homepageStyles.feature_container}>
-                <Link className={homepageStyles.feature_inner}>
+                <Link className={homepageStyles.feature_inner + " " + homepageStyles.feature_1}>
                   <div className={homepageStyles.feature_background_1 + " " + homepageStyles.feature_background}></div>
                   <div className={homepageStyles.feature_content}>
                     <time>October 12, 2021</time>
@@ -117,7 +117,7 @@ export default function Index() {
               </div>
               <div className={homepageStyles.feature_container}>
                 <div className={homepageStyles.feature_2_3_container}>
-                  <Link className={homepageStyles.feature_inner + " " + homepageStyles.feature_2}>
+                  <Link className={homepageStyles.feature_inner + " " + homepageStyles.feature_2 + " " + homepageStyles.feature_split}>
                     <div className={homepageStyles.feature_background_2 + " " + homepageStyles.feature_background}></div>
                     <div className={homepageStyles.feature_content}>
                       <time>August 15th, 2021</time>
@@ -135,7 +135,7 @@ export default function Index() {
             </div>
             <div className={homepageStyles.feature_row}>
               <div className={homepageStyles.feature_container}>
-                <Link className={homepageStyles.feature_inner}>
+                <Link className={homepageStyles.feature_inner + " " + homepageStyles.feature_split + " " + homepageStyles.feature_4}>
                   <div className={homepageStyles.feature_background_3 + " " + homepageStyles.feature_background}></div>
                   <div className={homepageStyles.feature_content}>
                     <time>September 15th, 2021</time>
@@ -144,7 +144,7 @@ export default function Index() {
                 </Link>
               </div>
               <div className={homepageStyles.feature_container}>
-                <Link className={homepageStyles.feature_inner}>
+                <Link className={homepageStyles.feature_inner + " " + homepageStyles.feature_split + " " + homepageStyles.feature_5}>
                   <div className={homepageStyles.feature_background_4 + " " + homepageStyles.feature_background}></div>
                   <div className={homepageStyles.feature_content}>
                     <time>September 15th, 2021</time>
@@ -161,7 +161,7 @@ export default function Index() {
       </div>
       <section className={homepageStyles.philanthropy_container}>
         <div className="container">
-          <div className="item">
+          <div className={"item" + " " + homepageStyles.philanthropy_content}>
             <div className="image">
               <picture>
                 <img src={DonateImg}/>

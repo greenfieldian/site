@@ -26,6 +26,7 @@
     z-index: 1;
     display: block;
     margin-bottom: 20px;
+    order: 2;
 }
 
 .bg {
@@ -63,6 +64,7 @@
     margin-top: 40px;
     clear: both;
     display: inline-block;
+    width: 100vw;
 }
 .header_wrapper {
     padding: 0 5%;
@@ -218,4 +220,58 @@
     -webkit-transition: all 0.4s ease-in-out;
     opacity: 0.7;
     transition: all 0.4s ease-in-out;
+}
+@media (min-width: 768px) {
+    .section_content {
+        display: flex;
+    }
+    .blog_feature .feature_inner.feature_1 {
+        min-height: 768px;
+    }
+    .blog_feature .feature_2_3_container .feature_2 {
+        min-height: 320px;
+        display: flex;
+    }
+    .blog_feature .feature_inner.feature_split .feature_background {
+        width: 50%;
+        position: relative;
+        height: auto;
+    }
+    .blog_feature .feature_inner.feature_split .feature_content {
+        width: 50%;
+        background: #fff;
+    }
+    .blog_feature .feature_inner {
+        min-height: auto;
+    }
+    .blog_feature .feature_2_3_container .feature_3 {
+        min-height: 240px;
+    }
+    .blog_feature .feature_inner.feature_4 .feature_background {
+        min-height: 480px;
+        order: 2;
+    }
+    .blog_feature .feature_inner.feature_4 .feature_content {
+        min-height: 480px;
+    }
+    .blog_feature .feature_inner.feature_5 .feature_background {
+        min-height: 480px;
+    }
+    .blog_feature .feature_inner.feature_5 .feature_content {
+        padding-bottom: 145px;
+    }
+    .blog_feature .feature_inner.feature_5+.read_more_container {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        left: auto;
+        width: 50%;
+        z-index: 2;
+    }
+
+    /* Philanthropy Section */
+    .philanthropy_content {
+        display: flex;
+    }
+    /* Philanthropy Section */
 }
