@@ -3,11 +3,12 @@ import { Link } from 'gatsby'
 import { Helmet } from "react-helmet"
 import Footer from "../components/footer"
 
+import HeroImg from "../assets/sample-hero-img.webp"
 import DonateImg from "../assets/philanthropy.png"
 import Favicon from "../assets/favicon.png"
 
 import * as homepageStyles from "./homepage.module.css"
-import Header from '../components/header'
+import HeaderWhite from '../components/headerWhite.js'
 import CTA from '../components/ctaComponent'
 
 
@@ -21,11 +22,15 @@ export default function Index() {
         <link rel="icon" href={Favicon} />
       </Helmet>
 
-    <Header />
+    <HeaderWhite />
       <div className={homepageStyles.hero}>
         <div className={homepageStyles.bg}></div>
         <div className={homepageStyles.section_content}>
-          <Link className={homepageStyles.hero_photo_render}></Link>
+          <Link className={homepageStyles.hero_photo_render}>
+          <picture>
+                <img src={HeroImg}/>
+              </picture>
+          </Link>
           <div className="text-wrapper container">
             <div className="text-render">
               <h2 className={homepageStyles.hero_headline + " " + "headline"}>Bridging the gap between you and your objectives</h2>
