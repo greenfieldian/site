@@ -26,7 +26,7 @@ export default function Index() {
       <div className={homepageStyles.hero}>
         <div className={homepageStyles.bg}></div>
         <div className={homepageStyles.section_content}>
-          <Link className={homepageStyles.hero_photo_render}>
+          <Link className={homepageStyles.hero_photo_render + " " + "container"}>
           <picture>
                 <img src={HeroImg}/>
               </picture>
