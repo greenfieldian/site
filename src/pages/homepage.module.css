@@ -6,7 +6,7 @@
     height: 80vh;
 }
 .hero * {
-    color: #000;
+    color: #fff;
 }
 .hero:first-child {
     padding-top: 36px;
@@ -19,11 +19,23 @@
     line-height: 3.5rem !important;
     margin-bottom: 2rem;
 }
+.hero_photo_render {
+    background-image: url(../assets/sample-hero-img.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: bottom;
+    position: relative;
+    width: 100%;
+    height: 40vh;
+    z-index: 1;
+    display: block;
+    margin-bottom: 20px;
+}
 
 .bg {
-    /*background: linear-gradient(
-        135deg, #051c2c 60%, #03339c 100%);*/
-    background: #fff;
+    background: linear-gradient(
+        135deg, #051c2c 70%, #03339c 100%);
+    /*background: #fff;*/
     text-shadow: 1px 1px 0 rgb(0 0 0 / 20%);
     position: absolute;
     top: 0;
@@ -32,7 +44,7 @@
     height: 100%;
 }
 .section_content {
-    padding-top: 140px;
+    padding-top: 90px;
     padding-bottom: 40px;
 }
 /* Homepage Insights Posts */

@@ -25,6 +25,7 @@ export default function Index() {
       <div className={homepageStyles.hero}>
         <div className={homepageStyles.bg}></div>
         <div className={homepageStyles.section_content}>
+          <Link className={homepageStyles.hero_photo_render}></Link>
           <div className="text-wrapper container">
             <div className="text-render">
               <h2 className={homepageStyles.hero_headline + " " + "headline"}>Bridging the gap between you and your objectives</h2>
