@@ -98,6 +98,13 @@
     font-family: ShockmouseSans-Medium, sans-serif;
     font-weight: 500;
 }
+.feature_content time {
+    font-size: .875rem;
+    line-height: 1.25rem;
+    font-weight: 500;
+    font-style: normal;
+    margin-bottom: 12px;
+}
 .feature_inner {
     position: relative;
     display: flex;
@@ -225,6 +232,10 @@
     .section_content {
         display: flex;
     }
+    .blog_feature .feature_content {
+        padding-right: 72px;
+        padding-bottom: 72px;
+    }
     .blog_feature .feature_inner.feature_1 {
         min-height: 768px;
     }
@@ -244,8 +255,11 @@
     .blog_feature .feature_inner {
         min-height: auto;
     }
-    .blog_feature .feature_2_3_container .feature_3 {
+    .blog_feature .feature_2_3_container .feature_3 .feature_content{
         min-height: 240px;
+        justify-content: center;
+        margin-right: 50%;
+        padding-right: 36px;
     }
     .blog_feature .feature_inner.feature_4 .feature_background {
         min-height: 480px;
@@ -272,6 +286,16 @@
     /* Philanthropy Section */
     .philanthropy_content {
         display: flex;
+    }
+    .philanthropy_image, .philanthropy_text {
+        width: 50%;
+    }
+    .philanthropy_text {
+        padding-left: 5%;
+    }
+    .philanthropy_text h3 {
+        font-size: 1.5rem;
+        line-height: 2.25rem;
     }
     /* Philanthropy Section */
 }

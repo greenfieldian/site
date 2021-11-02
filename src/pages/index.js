@@ -162,12 +162,12 @@ export default function Index() {
       <section className={homepageStyles.philanthropy_container}>
         <div className="container">
           <div className={"item" + " " + homepageStyles.philanthropy_content}>
-            <div className="image">
+            <div className={"image" + " " + homepageStyles.philanthropy_image}>
               <picture>
                 <img src={DonateImg}/>
               </picture>
             </div>
-            <div className="text-wrapper">
+            <div className={"text-wrapper" + " " + homepageStyles.philanthropy_text}>
               <h3 className="headline">We're committed to making the World a better place</h3>
               <div className={homepageStyles.cta_container}>
                 <Link className="arrow cta">Learn about our committment to Pledge 1%</Link>

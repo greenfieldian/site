@@ -187,20 +187,18 @@ input {
 .text-wrapper .description {
     line-height: 1.75rem;
     margin-bottom: 0;
+    font-weight: 300;
 }
 
 .headline+.description {
     margin-top: 1em;
 }
 
-.two-up-left {
+.two-up-left, .two-up-right {
     padding-top: 45px;
     padding-bottom: 45px;
 }
-.two-up-right {
-    padding-top: 45px;
-    padding-bottom: 45px;
-}
+
 .lead {
     margin-top: 1rem;
     margin-bottom: 1.25rem;
@@ -273,6 +271,19 @@ input {
 /* SwiperJS */
 
 @media (min-width: 768px) {
+    .headline {
+        font-size: 2.75rem;
+        line-height: 3.25rem;
+    }
+    .text-wrapper .description {
+        font-size: 1.25rem;
+        line-height: 2rem;
+       
+    }
+    .two-up-left, .two-up-right {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
     .reverse-mobile {
         flex-direction: row;
         min-height: 350px;
