@@ -4,7 +4,6 @@ import * as heroStyles from "../styles/hero.module.css"
 
 export default function Hero(props) {
     return (
-        <div>
             <section>
                 <div className={heroStyles.hero_container}>
                     <picture>
@@ -18,6 +17,5 @@ export default function Hero(props) {
                     </div>
                 </div>
             </section>
-        </div>
     )
 }

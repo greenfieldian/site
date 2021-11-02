@@ -6,7 +6,6 @@ import * as articleStyles from "./article.module.css"
 
 
 export default ({ article }) => (
-
   <article className={articleStyles.article}>
       <div>
         <Link to={`/blog/${article.slug}`}>
@@ -24,5 +23,4 @@ export default ({ article }) => (
           <div className={articleStyles.article_subtitle}>{article.subtitle.subtitle}</div>
       </div>
   </article>
-
 )
