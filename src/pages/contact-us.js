@@ -21,13 +21,16 @@ export default function Contact() {
                 <link rel="icon" href={Favicon} />
             </Helmet>
             <Layout>
-                <div>
+                <div className="outer">
+                    <header className="container">
+                        <div className="text-wrapper">
+                            <h1 className={"headline" + " " + contactStyles.headline}>Get In Touch</h1>
+                        </div>
+                    </header>
                     <div className="wrapper">
-                        <div className="container">
+                        <div className={"container" + " " + contactStyles.display_grid}>
                             <div className={contactStyles.main}>
                                 <article>
-                                    <header>
-                                        <h1 className="title headline">Get in touch</h1>
                                         <div>
                                             <p className="lead">Thank you for your interest in Shockmouse Media. Please fill out the form below and we’ll be in touch shortly.</p>
                                             <div className={contactStyles.form_group}>
@@ -101,7 +104,6 @@ export default function Contact() {
                                                 <input type="submit" value="Let's Talk"/>
                                             </div>
                                         </div>
-                                    </header>
                                 </article>
                             </div>
                             <div className={contactStyles.rail}>

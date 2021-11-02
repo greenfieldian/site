@@ -48,3 +48,29 @@
 .rail section {
     margin-top: 60px;
 }
+
+@media (min-width: 768px) {
+    .headline {
+        text-align: center;
+        font-weight: 500;
+        font-size: 4rem;
+        line-height: 4.75rem;
+    }
+    .display_grid {
+        display: inline-flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        clear: both;
+        justify-content: space-between;
+    }
+    .main {
+        width: 60%;
+        float: left;
+        display: block;
+        margin-right: 3.07692%;
+    }
+    .rail {
+        margin-left: 7.36264%;
+        width: 25%;
+    }
+}

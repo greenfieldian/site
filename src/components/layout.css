@@ -251,6 +251,12 @@ input {
 .nav-white-toggle span {
     color: #fff !important;
 }
+.navbar-collapse {
+    margin-left: auto;
+}
+.navbar-nav {
+    margin-left: auto;
+}
 /* Bootstrap Override */
 
 /* CTA Section */
@@ -271,6 +277,10 @@ input {
 /* SwiperJS */
 
 @media (min-width: 768px) {
+    .outer {
+        margin-top: 70px;
+        margin-bottom: 80px;
+    }
     .headline {
         font-size: 2.75rem;
         line-height: 3.25rem;

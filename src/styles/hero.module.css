@@ -20,3 +20,12 @@
     height: 100%;
     width: 100%;
 }
+
+@media (min-width: 768px) {
+    .hero_container, .hero_overlay {
+        height: 500px;
+    }
+    .hero_overlay .text_wrapper {
+        padding-top: 30%;
+    }
+}
